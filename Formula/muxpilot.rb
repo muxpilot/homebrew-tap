@@ -1,25 +1,25 @@
 class Muxpilot < Formula
   desc "Fast tmux workspace picker and agent-aware session menu."
   homepage "https://muxpilot.n.yatsyk.com"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/muxpilot/muxpilot/releases/download/v0.1.2/muxpilot-aarch64-apple-darwin.tar.xz"
-      sha256 "25e251eab97f6bc366d942b208b838ab7952cc5373d9bea6cd578dc6dbba97bc"
+      url "https://github.com/muxpilot/muxpilot/releases/download/v0.1.3/muxpilot-aarch64-apple-darwin.tar.xz"
+      sha256 "7733a41571db143b91e95fc5d4e292dbf19b95f003b7f18f49f799d7ab345ee1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/muxpilot/muxpilot/releases/download/v0.1.2/muxpilot-x86_64-apple-darwin.tar.xz"
-      sha256 "df786a6fc8ef5449d9c27c2e8179f9a342c7b13211418ca43ea6f403912c1fcb"
+      url "https://github.com/muxpilot/muxpilot/releases/download/v0.1.3/muxpilot-x86_64-apple-darwin.tar.xz"
+      sha256 "8b05dd8a1fba6156ce78ce6c480f4decc391277f85f20107319ba0f91a9e729b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/muxpilot/muxpilot/releases/download/v0.1.2/muxpilot-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f766dc3269cbe2618dc1606f1a50c55a51884aa4f20a57add8c1f7f3b77a968e"
+      url "https://github.com/muxpilot/muxpilot/releases/download/v0.1.3/muxpilot-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8d637a0cdd5a28fe385707ce1e36bf0d208ec43191c5c7f2658b8621e00868e6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/muxpilot/muxpilot/releases/download/v0.1.2/muxpilot-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6fea00728f0a109c67661b36ede55a68dd25bb061598a0a3997c90d6805ce393"
+      url "https://github.com/muxpilot/muxpilot/releases/download/v0.1.3/muxpilot-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "262bc2303bda10494f78f6b1f5828574067504a12039ca77700270861b7c5cc4"
     end
   end
   license "MIT"
